@@ -198,17 +198,14 @@ class SkillsTab extends StatelessWidget {
             )
           ),
           ListTile(
-            title: Row (
+            title: const Row (
               children: [
-              Icon(Icons.verified, color: Colors.black),
               SizedBox(width: 8),
-              Text('Certifications / Seminars :', style: TextStyle(color: Colors.black, fontSize: 18, fontWeight: FontWeight.w600, fontFamily:'VesperLibre'),
-              )
               ],
       ),
             subtitle: Container (
-              margin: EdgeInsets.only(left: 28),
-              child: Text(' • TechTalks III: Beyond the Apex " Innovate, Elevate and Integrate: Navigating Technology for Sustainability" \n • Count Her In: Celebrate Achievements', style: TextStyle(color: Colors.black, fontSize: 15, fontWeight: FontWeight.w500, fontFamily:'VesperLibre')),
+              margin: const EdgeInsets.only(left: 28),
+              child: const Text('  ', style: TextStyle(color: Colors.black, fontSize: 15, fontWeight: FontWeight.w500, fontFamily:'VesperLibre')),
             )
           ),
         ],
@@ -240,27 +237,27 @@ class InterestsTab extends StatelessWidget {
           ListTile(
             title: Row (
               children: [
-              Icon(Icons.language, color: Colors.black),
+              Icon(Icons.code, color: Colors.black),
               SizedBox(width: 8),
-              Text('Foreign Languages', style: TextStyle(color: Colors.black, fontSize: 18, fontWeight: FontWeight.w600, fontFamily:'VesperLibre')),
+              Text('Professional Interest', style: TextStyle(color: Colors.black, fontSize: 18, fontWeight: FontWeight.w600, fontFamily:'VesperLibre')),
               ],
             ),
             subtitle: Container (
               margin: EdgeInsets.only(left: 28),
-              child: Text(' • Korean \n • Japanese \n • Spanish', style: TextStyle(color: Colors.black, fontSize: 15, fontWeight: FontWeight.w500, fontFamily:'VesperLibre')),
+              child: Text(' • Web Development \n • Business Analytics \n • Database Management', style: TextStyle(color: Colors.black, fontSize: 15, fontWeight: FontWeight.w500, fontFamily:'VesperLibre')),
             )
           ),
           ListTile(
             title: Row(
               children:[
-              Icon(Icons.gamepad, color: Colors.black),
+              Icon(Icons.book, color: Colors.black),
               SizedBox(width: 8),
-              Text('Hobbies', style: TextStyle(color: Colors.black, fontSize: 18,fontWeight: FontWeight.w600, fontFamily:'VesperLibre')),
+              Text('Research Areas', style: TextStyle(color: Colors.black, fontSize: 18,fontWeight: FontWeight.w600, fontFamily:'VesperLibre')),
               ],
             ),
             subtitle: Container (
               margin: EdgeInsets.only(left: 28),
-              child: Text(' • Playing Board Games \n • Watching Movies, Sports, Korean Dramas \n • Playing Online Games', style: TextStyle(color: Colors.black, fontSize: 15, fontWeight: FontWeight.w500, fontFamily:'VesperLibre')),
+              child: Text(' • AI in Creativity \n • User Adaptation and Personalization', style: TextStyle(color: Colors.black, fontSize: 15, fontWeight: FontWeight.w500, fontFamily:'VesperLibre')),
             )
           ),
         ],
