@@ -128,7 +128,7 @@ class EducationTab extends StatelessWidget {
             ),
             subtitle: Container (
               margin: EdgeInsets.only(left: 28),
-              child:Text('• With High Honors \n • 2019-2021', style: TextStyle(color: Colors.black, fontSize: 15, fontWeight: FontWeight.w500, fontFamily:'VesperLibre')),
+              child:Text('• With High Honors \n• 2019-2021', style: TextStyle(color: Colors.black, fontSize: 15, fontWeight: FontWeight.w500, fontFamily:'VesperLibre')),
             )
           ),
            ListTile(
@@ -141,7 +141,7 @@ class EducationTab extends StatelessWidget {
             ),
             subtitle: Container (
               margin: EdgeInsets.only(left: 28),
-              child: Text('• With Honors \n • 2018-2019', style: TextStyle(color: Colors.black, fontSize: 15, fontWeight: FontWeight.w500, fontFamily:'VesperLibre')),
+              child: Text('• With Honors \n• 2018-2019', style: TextStyle(color: Colors.black, fontSize: 15, fontWeight: FontWeight.w500, fontFamily:'VesperLibre')),
             )
           ),
            ListTile(
@@ -154,7 +154,7 @@ class EducationTab extends StatelessWidget {
             ),
             subtitle: Container(
               margin: EdgeInsets.only(left: 28),
-              child:Text(' • With Honors \n • 2014-2015', style: TextStyle(color: Colors.black, fontSize: 15, fontWeight: FontWeight.w500, fontFamily:'VesperLibre')),
+              child:Text('• With Honors \n• 2014-2015', style: TextStyle(color: Colors.black, fontSize: 15, fontWeight: FontWeight.w500, fontFamily:'VesperLibre')),
             )
           ),
           
