@@ -88,8 +88,8 @@ class PersonalInformationTab extends StatelessWidget {
               ),
             ),
             padding: EdgeInsets.symmetric(horizontal: 8),
-            child:Text('      My name is Hariette Mae P. Salazar, and I come from San Roque, Bauan, Batangas. I am currently pursuing a Bachelor of Science in Information Technology with a major in Business Analytics at Batangas State University - TNEU. I was born on May 5, 2003, at Bauan General Hospital, and I am the eldest daughter in my family. I am passionate and dedicated to my studies, as well as the activities that I enjoy. \n     At home, I am a very cheerful and joyful person who loves to tease my family. However, when I am at school, my personality changes. In my free time, I enjoy playing board games and watching movies. ',
-            style: TextStyle(color: Colors.black, fontSize: 18, fontWeight: FontWeight.w500, fontFamily:'VesperLibre'),
+            child:Text('      My name is Hariette Mae P. Salazar, and I come from San Roque, Bauan, Batangas. I am currently pursuing a Bachelor of Science in Information Technology with a major in Business Analytics at Batangas State University - TNEU. I was born on May 5, 2003, at Bauan General Hospital, and I am the eldest daughter in my family. I am passionate and dedicated to my studies, as well as the activities that I enjoy. At home, I am a very cheerful and joyful person who loves to tease my family. However, when I am at school, my personality changes. In my free time, I enjoy playing board games and watching movies. ',
+            style: TextStyle(color: Colors.black, fontSize: 15, fontWeight: FontWeight.w500, fontFamily:'VesperLibre'),
             )
           ),
         ],
