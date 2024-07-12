@@ -172,7 +172,7 @@ class SkillsTab extends StatelessWidget {
       child: Column(
         children: [
           ListTile(
-            title: Row (
+            title: const Row (
               children: [
              Icon(Icons.computer, color: Colors.black),
              SizedBox(width: 8),
@@ -180,12 +180,12 @@ class SkillsTab extends StatelessWidget {
               ],
             ),
             subtitle: Container (
-              margin: EdgeInsets.only(left: 28),
-              child: Text(' • HTML / CSS \n • Excel / Tableau \n • SQL / MYSQL', style: TextStyle(color: Colors.black, fontSize: 15, fontWeight: FontWeight.w500, fontFamily:'VesperLibre')),
+              margin: const EdgeInsets.only(left: 28),
+              child: const Text(' • HTML / CSS \n • Excel / Tableau \n • SQL / MYSQL', style: TextStyle(color: Colors.black, fontSize: 15, fontWeight: FontWeight.w500, fontFamily:'VesperLibre')),
             )
           ),
           ListTile(
-            title: Row (
+            title: const Row (
               children: [
               Icon(Icons.handshake, color: Colors.black),
               SizedBox(width: 8),
@@ -193,19 +193,21 @@ class SkillsTab extends StatelessWidget {
               ],
             ),
             subtitle: Container(
-              margin: EdgeInsets.only(left: 28),
-               child: Text(' • Communication: I can can communicate well to others \n • Time Management: I manage my time properly \n • Reselience : I stay positive even there are a lot of challenges', style: TextStyle(color: Colors.black, fontSize: 15, fontWeight: FontWeight.w500, fontFamily:'VesperLibre')),
+              margin: const EdgeInsets.only(left: 28),
+               child: const Text(' • Communication: I can can communicate well to others \n • Time Management: I manage my time properly \n • Reselience : I stay positive even there are a lot of challenges', style: TextStyle(color: Colors.black, fontSize: 15, fontWeight: FontWeight.w500, fontFamily:'VesperLibre')),
             )
           ),
           ListTile(
             title: const Row (
               children: [
+              Icon(Icons.verified, color: Colors.black),
               SizedBox(width: 8),
+              Text('Certification / Seminars:', style: TextStyle(color: Colors.black, fontSize: 18,fontWeight: FontWeight.w600, fontFamily:'VesperLibre')),
               ],
       ),
             subtitle: Container (
               margin: const EdgeInsets.only(left: 28),
-              child: const Text('  ', style: TextStyle(color: Colors.black, fontSize: 15, fontWeight: FontWeight.w500, fontFamily:'VesperLibre')),
+              child: const Text(' • Tech Talks III: Beyond the Apex "Innovate, Elevate and Integrate: Navigating Technology for Sustainability" \n • Count Her In: Celebrate Achievements ', style: TextStyle(color: Colors.black, fontSize: 15, fontWeight: FontWeight.w500, fontFamily:'VesperLibre')),
             )
           ),
         ],
@@ -213,7 +215,6 @@ class SkillsTab extends StatelessWidget {
     );
   }
 }
-
 class InterestsTab extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
